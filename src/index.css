@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.large_circle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border-color: rgb(152, 152, 152);
+  border-width: 1.5px;
+  background-color: rgba(128, 128, 128, 0.105);
+  position: fixed;
+  pointer-events: none;
+  z-index: 1;
+}
+.small_circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border-width: 1.5px;
+  background-color: rgb(92, 92, 92);
+  position: fixed;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* I added a z-index of 1 in order to avoid the cursor from being hidden by any scaling effects
+*/
