@@ -1,6 +1,6 @@
 # Custom mouse playground 🖱
 
-<p> This is a playground for a custom mouse I have created</p>
+<p> This is a playground for a custom mouse I have created for my portfolio</p>
 
 ## Tech used
 
